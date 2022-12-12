@@ -1,0 +1,14 @@
+encoder = rdn
+inf_in_channels = 4
+rec_in_channels = 5
+rep_channels = 64
+color_channels = 1
+num_out_views = 7
+input_idx = 0,6,42,48
+lf_start_idx = 4
+lf_end_idx = 11
+color=y
+
+training_data_path = your_data_path/training/*.mat
+testing_data_path = your_data_path/testing/30scenes/*.mat
+state_path = model_states/lytro-2x2-7x7-y-rdn-encoder.pt
